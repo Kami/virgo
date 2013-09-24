@@ -543,7 +543,7 @@ function SubProcCheck:_findLibrary(lexact, paths, osexts)
   return clib
 end
 
-
+-------------------------------------------------------------------------------
 
 function CheckResult:initialize(check, options)
   self._options = options or {}
